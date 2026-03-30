@@ -163,7 +163,7 @@ For the deprecated sync example see `test_sync.py <https://github.com/python-rin
         await ring.async_update_data()
 
         devices = ring.devices()
-        pprint(devices.devices_combined)
+        print(devices.devices_combined)
         await auth.async_close()
 
 
